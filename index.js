@@ -24,6 +24,7 @@ function distanceTravelledInFeet(b1, b2){
         return ((b1-b2)*264);
     }
 }
+
 function calculatesFarePrice(start, destination){
     let feet;
     if(destination > start){
